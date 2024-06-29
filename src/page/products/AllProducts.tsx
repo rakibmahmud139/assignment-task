@@ -88,13 +88,13 @@ const AllProducts = () => {
       dataIndex: "rating",
     },
     {
-      title: "Update",
-      key: "Update",
+      title: "Action",
+      key: "x",
       render: (item) => {
         return (
           <Space>
             <NavLink to={`/products/${item.key}`}>Details</NavLink>
-            <NavLink to={`/products/${item.key}`}>Update</NavLink>
+            <NavLink to={`/products/update/${item.key}`}>Update</NavLink>
           </Space>
         );
       },

@@ -42,3 +42,17 @@ export type TProduct = {
   images: string[];
   thumbnail: string;
 };
+
+export type TCategory = {
+  slug: string;
+  name: string;
+  url: string;
+};
+
+export type FormValues = {
+  title: string;
+  description: string;
+  price: number;
+  category: string;
+  reviews: { review: string }[];
+};
