@@ -24,6 +24,7 @@ const MainLayouts = () => {
             style={{
               padding: 24,
               minHeight: 360,
+              background: "rgb(216, 239, 211)",
             }}
           >
             <Outlet />
